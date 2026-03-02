@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  aprovacao-bancopan:
+    build: .
+    container_name: aprovacao-bancopan
+    ports:
+      - "8080:80"
+    restart: unless-stopped
