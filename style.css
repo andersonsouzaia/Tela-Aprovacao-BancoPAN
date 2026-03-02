@@ -735,9 +735,30 @@ body {
     }
 
     .no-print,
-    .actions-bar,
-    .stepper-bar {
+    .actions-bar {
         display: none !important;
+    }
+
+    /* STEPPER COMPACTO NO PRINT */
+    .stepper-bar {
+        padding: 8px 20px 6px !important;
+        border-bottom: 1px solid #ddd !important;
+        background: white !important;
+    }
+
+    .step-circle {
+        width: 28px !important;
+        height: 28px !important;
+        font-size: 11px !important;
+    }
+
+    .step-label {
+        font-size: 8px !important;
+    }
+
+    .step-connector {
+        margin-bottom: 18px !important;
+        height: 2px !important;
     }
 
     /* TOPBAR */
@@ -777,7 +798,7 @@ body {
         box-shadow: none !important;
         grid-template-columns: 55% 45% !important;
         border-radius: 0 !important;
-        min-height: calc(100vh - 60px) !important;
+        min-height: calc(100vh - 110px) !important;
     }
 
     /* LOGO NO PAINEL */
