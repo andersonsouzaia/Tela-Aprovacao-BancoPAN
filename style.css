@@ -905,7 +905,7 @@ body {
 /* ==========================================
    RESPONSIVO
    ========================================== */
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .result-grid {
         grid-template-columns: 1fr;
     }
