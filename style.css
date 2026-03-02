@@ -206,13 +206,13 @@ body {
 /* LOGO DENTRO DO PAINEL */
 .panel-logo-bar {
     grid-column: 1 / -1;
-    padding: 20px 32px;
+    padding: 10px 24px;
     border-bottom: 2px solid var(--pan-border-dark);
     background: var(--pan-white);
 }
 
 .panel-logo {
-    height: 56px;
+    height: 40px;
     width: auto;
 }
 
@@ -803,11 +803,11 @@ body {
 
     /* LOGO NO PAINEL */
     .panel-logo-bar {
-        padding: 12px 24px !important;
+        padding: 6px 20px !important;
     }
 
     .panel-logo {
-        height: 44px !important;
+        height: 32px !important;
     }
 
     /* DADOS CLIENTE */
